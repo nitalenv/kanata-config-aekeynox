@@ -1,4 +1,8 @@
 (defcfg
+  ;; Exclude Quacken from kanata
+  linux-dev-names-exclude (
+    "ZMK Project Quacken Flex Keyboard"
+  )
 
   ;; Allow Kanata to process keys that are not defined in defsrc
   process-unmapped-keys yes
